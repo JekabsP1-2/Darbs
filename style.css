@@ -1,0 +1,19 @@
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  display: flex;
+  flex-direction: column; /* Vertikāli: jautājums augšā, pogas zemāk */
+  align-items: center;
+  gap: 20px;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: row; /* Pogu izvietošana vienā rindā */
+  gap: 20px;
+}
